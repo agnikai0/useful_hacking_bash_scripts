@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script installs necessary dependencies and tools for using ODAT (Oracle Database Attacking Tool). 
+# It installs required libraries, clones the ODAT repository, downloads and sets up Oracle Instant Client, 
+# and installs necessary Python packages.
+
 sudo apt-get install libaio1 python3-dev alien -y
 git clone https://github.com/quentinhardy/odat.git
 cd odat/
